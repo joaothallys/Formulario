@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(/FrontEnd/image/1784147.jpg); /* Substitua pelo caminho real da sua imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* Fixa a imagem de fundo */
+  height: 100vh; /* Garante que o body ocupe toda a altura da tela */
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+}
+
+.card {
+  text-align: center;
+  background-color: rgba(46, 46, 87, 0.7); /* Cor de fundo do card */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.card h2 {
+  color: #1a0c21; /* Cor do título dentro do card */
+}
+
+.card p {
+  color: #000000; /* Cor do texto do parágrafo dentro do card */
+}
+
+.card .close-button {
+  background-color: #6b1391; /* Cor de fundo do botão dentro do card */
+  color: #fff; /* Cor do texto do botão dentro do card */
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card .close-button:hover {
+  background-color: #4f33aa; /* Cor de fundo ao passar o mouse no botão dentro do card */
+}

@@ -1,0 +1,106 @@
+
+header h1 {
+  font-family: "Arial", sans-serif;
+}
+
+h2 {
+  font-weight: bold; /* Define o texto em negrito */
+  color: 	#ffffff; /* Substitua 'sua-cor-aqui' pela cor desejada */
+}
+
+
+
+
+#pwd {
+  background-color: #D0D0D1; /* Define a cor de fundo da caixa de senha */
+  border: 1px solid #AEA9BB; /* Define a borda da caixa de senha */
+  color: #333; /* Define a cor do texto dentro da caixa de senha */
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(/FrontEnd/image/1784147.jpg); /* Substitua pelo caminho real da sua imagem */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header {
+  background-color: rgba(46, 46, 87, 0.7); /* Cor de fundo do cabeçalho com transparência */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Resto do seu CSS... */
+
+
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #29397c; /* Cor de fundo do container */
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1 {
+  font-size: 24px;
+}
+
+form {
+  background-color: #8f8cb8;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Cores dos botões */
+button {
+  background-color: #009c34;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Cores dos campos de entrada */
+input[type="text"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #aea9bb;
+  border-radius: 3px;
+  background-color: #d0d0d1;
+}
+
+/* Cores dos rótulos e checkboxes/radios */
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #000000; /* Cor dos rótulos */
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+  color: #333; /* Cor dos checkboxes/radios */
+}
